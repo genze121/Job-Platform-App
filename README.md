@@ -25,61 +25,92 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 - Eclipse IDE 2021-09
 - Tomcat server 9+
 
-1) <h3> USERS MANAGEMENT INDEX PAGE
+1) <h3> JOB PLATFORM INDEX PAGE
 ---
   
-<img src="https://user-images.githubusercontent.com/45147588/115698782-9ffa7780-a382-11eb-9e5a-9afd47979d24.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140025290-c98d2c6b-404c-4086-9243-05005077cfba.PNG">
 
 </h3> 
 
-2) <h3> USERS MANAGEMENT REGISTRATION MODULE 
+2) <h3> JOB PLATFORM REGISTRATION MODULE 
  --- 
 
-<img src="https://user-images.githubusercontent.com/45147588/115698780-9f61e100-a382-11eb-91a7-a61b19edc7cc.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140025303-84591ebf-47ea-4f8b-9bfd-6d0332e151ed.PNG">
 
 </h3>
 
 
-3) <h3> USERS MANAGEMENT LOGIN MODULE 
+3) <h3> JOB PLATFORM LOGIN MODULE 
  --- 
 
-<img src="https://user-images.githubusercontent.com/45147588/115698778-9f61e100-a382-11eb-8356-a9efe7cee44f.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140025293-0abfad08-9844-4c72-95b0-59ca9fdaf6e1.PNG">
 
 </h3>
 
 
-4) <h3> USERS MANAGEMENT HOME PAGE 
+4) <h3> JOB PLATFORM HOME PAGE 
  --- 
 
-<img src="https://user-images.githubusercontent.com/45147588/115698768-9cff8700-a382-11eb-8b47-1ea0d434021e.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140025289-86e77e72-d706-4704-b012-672f1912652f.PNG">
 
 </h3>
 
-5) <h3> USERS MANAGEMENT ADD USERS 
+5) <h3> JOB PLATFORM ADMIN ADD JOBS 
  --- 
 
-<img src="https://user-images.githubusercontent.com/45147588/115698789-a1c43b00-a382-11eb-8371-ef13c5f6718c.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140025301-dc612dcf-de57-435b-b539-64d7644fb4c3.PNG">
 
 </h3>
 
-6) <h3> USERS MANAGEMENT SHOW USERS
+6) <h3> JOB PLATFORM ADMIN SHOW JOBS
  --- 
 
-<img src="https://user-images.githubusercontent.com/45147588/115698787-a12ba480-a382-11eb-8c3d-4ee3648aac5b.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140025286-6d5ca293-6f1f-490a-a009-a60953584fa1.PNG">
 
 </h3>
 
-7) <h3> USERS MANAGEMENT EDIT USERS
+7) <h3> JOB PLATFORM ADMIN HOME PAGE
  --- 
 
-<img src="https://user-images.githubusercontent.com/45147588/115698785-a0930e00-a382-11eb-8736-6edb70cc19dc.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140025278-e93f607e-18e7-41e8-b477-508f31e36f7a.PNG">
 
 </h3>
 
-8) <h3> LOGOUT MODULE
+8) <h3> JOB PLATFORM ADMIN EDIT JOBS
  --- 
 
-<img src="https://user-images.githubusercontent.com/45147588/115699645-73932b00-a383-11eb-8a77-d3799f76fea8.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140030889-e99b5338-5e99-4517-80dd-d056ec0fa3c0.PNG">
+
+</h3>
+
+
+9) <h3> JOB PLATFORM USER VIEW JOBS
+ --- 
+
+<img src="https://user-images.githubusercontent.com/45147588/140025305-a59f3416-4ef9-4789-8921-bd5b52b5c28a.PNG">
+
+</h3>
+
+
+10) <h3> JOB PLATFORM USER VIEW MORE JOBS
+ --- 
+
+<img src="https://user-images.githubusercontent.com/45147588/140025306-23240d6d-6c07-4132-80ed-0d6bfe153bf0.PNG">
+
+</h3>
+
+
+11) <h3> JOB PLATFORM FORGOT PASSWORD
+ --- 
+
+<img src="https://user-images.githubusercontent.com/45147588/140025287-6bf3df96-2c2a-46ff-9567-8c03fb43eda2.PNG">
+
+</h3>
+
+12) <h3> LOGOUT MODULE
+ --- 
+
+<img src="https://user-images.githubusercontent.com/45147588/140025296-580acfd9-9efe-49a3-810b-822e847f143f.PNG">
 
 </h3>
 

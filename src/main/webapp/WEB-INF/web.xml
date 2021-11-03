@@ -1,0 +1,103 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<!-- Clean URL for Registration -->
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<jsp-file>/register.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<servlet-name>RegisterController</servlet-name>
+		<display-name>RegisterController</display-name>
+		<description></description>
+		<servlet-class>com.controller.RegisterController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LoginController</servlet-name>
+		<display-name>LoginController</display-name>
+		<description></description>
+		<servlet-class>com.controller.LoginController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ForgotPasswordController</servlet-name>
+		<display-name>ForgotPasswordController</display-name>
+		<description></description>
+		<servlet-class>com.controller.ForgotPasswordController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogoutController</servlet-name>
+		<display-name>LogoutController</display-name>
+		<description></description>
+		<servlet-class>com.controller.LogoutController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateProfileController</servlet-name>
+		<display-name>UpdateProfileController</display-name>
+		<description></description>
+		<servlet-class>com.controller.UpdateProfileController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PostJobsController</servlet-name>
+		<display-name>PostJobsController</display-name>
+		<description></description>
+		<servlet-class>com.admin.controller.PostJobsController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteController</servlet-name>
+		<display-name>DeleteController</display-name>
+		<description></description>
+		<servlet-class>com.admin.controller.DeleteController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateJobsController</servlet-name>
+		<display-name>UpdateJobsController</display-name>
+		<description></description>
+		<servlet-class>com.admin.controller.UpdateJobsController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegisterController</servlet-name>
+		<url-pattern>/RegisterController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/LoginController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ForgotPasswordController</servlet-name>
+		<url-pattern>/ForgotPasswordController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutController</servlet-name>
+		<url-pattern>/LogoutController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateProfileController</servlet-name>
+		<url-pattern>/UpdateProfileController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PostJobsController</servlet-name>
+		<url-pattern>/PostJobsController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteController</servlet-name>
+		<url-pattern>/DeleteController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateJobsController</servlet-name>
+		<url-pattern>/UpdateJobsController</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>-1</session-timeout>
+	</session-config>
+
+</web-app>

@@ -1,0 +1,41 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Zen Antique Soft', serif;
+}
+
+.bg-custom {
+	background: #1460e3;
+}
+
+.button-custom {
+	box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.navbar .navbar-nav .nav-item {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link {
+	background: white;
+	color: black;
+	border-radius: 5px;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	background: #1460e3;
+}

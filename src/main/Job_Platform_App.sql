@@ -23,3 +23,17 @@ pub_date datetime default now());
 
 select * from jobs;
 
+
+create table apply_jobs
+(id int primary key not null,
+apply_id varchar(100),
+job_title varchar(500),
+location varchar(100),
+category varchar(100),
+username varchar(50),
+applied_date datetime default now());
+
+drop table apply_jobs;
+
+select * from apply_jobs;
+

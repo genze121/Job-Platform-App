@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.databaseconnector.DBConnectionProvider;
+import com.model.ApplyJobModel;
 import com.model.JobModel;
 import com.service.JobDAO;
 
@@ -28,6 +29,10 @@ public class JobDAOIMPL implements JobDAO {
 	private static final String JOBS_USING_OR = "select * from jobs where category=? or location=? order by id desc";
 
 	private static final String JOBS_USING_AND = "select * from jobs where category=? and location=? order by id desc";
+
+	private static final String APPLIED_JOBS = "insert into apply_jobs(id,apply_id,job_title,location,category,username) values(?,?,?,?,?,?)";
+
+	private static final String GET_APPLIED_JOBS = "select * from apply_jobs";
 
 	@Override
 	public boolean postJobs(JobModel jobModel) {
@@ -318,6 +323,78 @@ public class JobDAOIMPL implements JobDAO {
 
 		}
 		return listsUserJobsAND;
+	}
+
+	@Override
+	public boolean applyJobs(ApplyJobModel applyJobModel) {
+
+		boolean checkApplyJobsFlag = false;
+		Connection connection = null;
+		PreparedStatement preparedStatement = null;
+		try {
+			connection = DBConnectionProvider.getConnection();
+			preparedStatement = connection.prepareStatement(APPLIED_JOBS);
+
+			preparedStatement.setInt(1, applyJobModel.getId());
+			preparedStatement.setString(2, applyJobModel.getApply_id());
+			preparedStatement.setString(3, applyJobModel.getTitle());
+			preparedStatement.setString(4, applyJobModel.getLocation());
+			preparedStatement.setString(5, applyJobModel.getCategory());
+			preparedStatement.setString(6, applyJobModel.getUsername());
+
+			int appliedJobs = preparedStatement.executeUpdate();
+
+			if (appliedJobs == 1 || appliedJobs > 0) {
+				checkApplyJobsFlag = true;
+				System.out.println("Job Applied Successfully.....");
+			} else {
+				System.out.println("Something went wrong.Please try again.....");
+			}
+		} catch (SQLException ex) {
+			DBConnectionProvider.printSQLException(ex);
+		}
+
+		finally {
+			DBConnectionProvider.closeResources_1(preparedStatement, connection);
+		}
+
+		return checkApplyJobsFlag;
+	}
+
+	@Override
+	public List<ApplyJobModel> getAllApplyJobs() {
+
+		List<ApplyJobModel> lists = new ArrayList<ApplyJobModel>();
+		ApplyJobModel applyJobModels = null;
+		Connection connection = null;
+		PreparedStatement preparedStatement = null;
+		ResultSet resultSet = null;
+		try {
+			connection = DBConnectionProvider.getConnection();
+			preparedStatement = connection.prepareStatement(GET_APPLIED_JOBS);
+
+			resultSet = preparedStatement.executeQuery();
+
+			while (resultSet.next()) {
+				applyJobModels = new ApplyJobModel();
+				applyJobModels.setId(resultSet.getInt(1));
+				applyJobModels.setApply_id(resultSet.getString(2));
+				applyJobModels.setTitle(resultSet.getString(3));
+				applyJobModels.setLocation(resultSet.getString(4));
+				applyJobModels.setCategory(resultSet.getString(5));
+				applyJobModels.setUsername(resultSet.getString(6));
+				applyJobModels.setApply_date(resultSet.getTimestamp(7));
+				lists.add(applyJobModels);
+			}
+		} catch (SQLException ex) {
+			DBConnectionProvider.printSQLException(ex);
+		}
+
+		finally {
+			DBConnectionProvider.closeResources_2(resultSet, preparedStatement, connection);
+
+		}
+		return lists;
 	}
 
 }

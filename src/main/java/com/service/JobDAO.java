@@ -2,6 +2,7 @@ package com.service;
 
 import java.util.List;
 
+import com.model.ApplyJobModel;
 import com.model.JobModel;
 
 public interface JobDAO {
@@ -21,5 +22,9 @@ public interface JobDAO {
 	public List<JobModel> getJobsByLocationOrCategory(String category,String location);
 	
 	public List<JobModel> getJobsByLocationAndCategory(String category,String location);
+	
+	public boolean applyJobs(ApplyJobModel applyJobModel);
+	
+	public List<ApplyJobModel> getAllApplyJobs();
 
 }

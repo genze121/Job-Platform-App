@@ -44,6 +44,13 @@ body {
 <body>
 	<%@include file="navbar.jsp"%>
 
+	<%
+	if (userAdmin == null) {
+		session.setAttribute("loginCompulsory", "Please login to access the details....");
+		response.sendRedirect("../login.jsp");
+	}
+	%>
+
 	<div class="container">
 		<div class="row mt-4">
 			<div class="col-md-4 mt-4">
@@ -93,7 +100,7 @@ body {
 				</a>
 			</div>
 
-			<div class="col-md-12 mt-2">
+			<div class="col-md-6 mt-2">
 				<a>
 					<div class="card border-danger mt-4">
 						<div class="card-body">
@@ -110,6 +117,23 @@ body {
 					</div>
 				</a>
 			</div>
+
+			<div class="col-md-6 mt-2">
+				<a href="appliedJobs.jsp">
+					<div class="card border-danger mt-4">
+						<div class="card-body">
+							<div class="text-center">
+								<img alt="User Counter" src="../images/background/list.png"
+									style="max-width: 135px;">
+							</div>
+							<h3 class="text-center mt-2">Applied Jobs</h3>
+
+							<div class="text-center">--------</div>
+						</div>
+					</div>
+				</a>
+			</div>
+
 		</div>
 	</div>
 

@@ -9,6 +9,8 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 - Edit Jobs
 - List Jobs
 - Delete Jobs
+- Apply Jobs
+- View Applied Jobs
 - Login Model
 - Registration Model
 - Forgot Password Model
@@ -72,7 +74,7 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 7) <h3> JOB PLATFORM ADMIN HOME PAGE
  --- 
 
-<img src="https://user-images.githubusercontent.com/45147588/140025278-e93f607e-18e7-41e8-b477-508f31e36f7a.PNG">
+<img src="https://user-images.githubusercontent.com/45147588/140277723-a087e73b-9c01-4ce6-b5e6-e79562d9dd39.PNG">
 
 </h3>
 
@@ -107,7 +109,22 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
-12) <h3> LOGOUT MODULE
+12) <h3> APPLY JOBS
+ --- 
+
+<img src="https://user-images.githubusercontent.com/45147588/140277738-edd31a3a-44de-4ceb-89a1-6ff262e70398.PNG">
+
+</h3>
+
+
+13) <h3> VIEW APPLIED JOBS
+ --- 
+
+<img src="https://user-images.githubusercontent.com/45147588/140277735-197275d1-93ed-4512-b762-887341330a22.PNG">
+
+</h3>
+
+14) <h3> LOGOUT MODULE
  --- 
 
 <img src="https://user-images.githubusercontent.com/45147588/140025296-580acfd9-9efe-49a3-810b-822e847f143f.PNG">

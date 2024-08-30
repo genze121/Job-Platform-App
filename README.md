@@ -131,6 +131,10 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+----
+
+Credits: [Tirtha Sharma](https://github.com/genze121 "tirtha Sharma")
+
 
 
 

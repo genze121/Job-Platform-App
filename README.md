@@ -1,8 +1,7 @@
 
-<h1>JOB PLATFORM APP SNAPSHOTS</h1>
+## Job Platform App
 
-
-Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
+> Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 ## Following features
 - Add Jobs
@@ -34,6 +33,8 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3> 
 
+---
+
 2) <h3> JOB PLATFORM REGISTRATION MODULE 
  --- 
 
@@ -41,6 +42,7 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
 
 3) <h3> JOB PLATFORM LOGIN MODULE 
  --- 
@@ -49,6 +51,7 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
 
 4) <h3> JOB PLATFORM HOME PAGE 
  --- 
@@ -57,12 +60,16 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
+
 5) <h3> JOB PLATFORM ADMIN ADD JOBS 
  --- 
 
 <img src="https://user-images.githubusercontent.com/45147588/140025301-dc612dcf-de57-435b-b539-64d7644fb4c3.PNG">
 
 </h3>
+
+---
 
 6) <h3> JOB PLATFORM ADMIN SHOW JOBS
  --- 
@@ -71,12 +78,16 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
+
 7) <h3> JOB PLATFORM ADMIN HOME PAGE
  --- 
 
 <img src="https://user-images.githubusercontent.com/45147588/140277723-a087e73b-9c01-4ce6-b5e6-e79562d9dd39.PNG">
 
 </h3>
+
+---
 
 8) <h3> JOB PLATFORM ADMIN EDIT JOBS
  --- 
@@ -85,6 +96,7 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
 
 9) <h3> JOB PLATFORM USER VIEW JOBS
  --- 
@@ -93,6 +105,7 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
 
 10) <h3> JOB PLATFORM USER VIEW MORE JOBS
  --- 
@@ -101,6 +114,7 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
 
 11) <h3> JOB PLATFORM FORGOT PASSWORD
  --- 
@@ -109,6 +123,8 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
+
 12) <h3> APPLY JOBS
  --- 
 
@@ -116,6 +132,7 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 </h3>
 
+---
 
 13) <h3> VIEW APPLIED JOBS
  --- 
@@ -123,6 +140,8 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 <img src="https://user-images.githubusercontent.com/45147588/140277735-197275d1-93ed-4512-b762-887341330a22.PNG">
 
 </h3>
+
+---
 
 14) <h3> LOGOUT MODULE
  --- 
@@ -133,7 +152,11 @@ Job Platform Application Developed using JSP, Servlet, JDBC and MySQL Database.
 
 ----
 
-Credits: [Tirtha Sharma](https://github.com/genze121 "tirtha Sharma")
+Credits: [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
+
+Twitter: [Twitter Link](https://x.com/tirthagenze121 "Tirtha Sharma")
+
+---
 
 
 
